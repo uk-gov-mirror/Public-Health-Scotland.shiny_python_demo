@@ -5,3 +5,4 @@ statsmodels==0.14.6
 faicons==0.2.2
 scipy==1.18.0
 python-dotenv==1.2.2
+duckdb==1.5.5

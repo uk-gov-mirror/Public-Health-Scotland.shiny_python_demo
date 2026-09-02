@@ -102,3 +102,20 @@ body > .container-fluid .tab-content {
     padding: 0px;
     margin: 0px;
 }
+
+/* Change highlight color when selecting an option */
+.selectize-dropdown .option.active {
+    background-color: var(--phs-color-primary) !important;
+    color: var(--phs-color-bg) !important;
+}
+
+.selectize-dropdown .option:hover {
+    background-color: var(--phs-color-primary) !important;
+    color: var(--phs-color-bg) !important;
+}
+
+/* Remove the blue border glow */
+.selectize-input.focus {
+    border-color: var(--phs-color-primary) !important;
+    box-shadow: 0 0 0 2px var(--phs-color-primary) !important;
+}
