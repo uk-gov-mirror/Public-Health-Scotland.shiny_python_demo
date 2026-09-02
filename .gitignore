@@ -199,3 +199,6 @@ cython_debug/
 
 # rsconnect deployment files
 rsconnect-python/
+
+# Duckdb generated from CSV
+data/*.duckdb
